@@ -1,0 +1,18 @@
+<mvc:View controllerName="reversestring1.reversestringproject.controller.View1" xmlns:f = "sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="Reverse String Simple Project">
+        <content>
+            <!-- <VBox alignItems="Center" margin="100.0rem"> -->
+             <VBox alignContent="Center" alignItems="Center">
+                <f:SimpleForm editable="true" alignItems="Center" alignContent="Center" title="Reverse String" width="350px" class=".sapMFlexBoxBGTransparent">
+                    <f:content>
+                        <VBox alignContent="Center" alignItems="Center">
+                <HBox>
+                    <Label text="Enter any String: " />
+                    <Input value="" id="inp1" width="12.00rem" height="10.25rem" class=".sapMInputBaseInner" />
+                     </HBox>
+                    <Button text="reverse" press="onPressReverse" type="Emphasized" /></VBox>
+               </f:content></f:SimpleForm>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
